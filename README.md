@@ -37,6 +37,7 @@ sequenceDiagram
         TK->>SQLite: Updates tokens in Database
         TK-->>Dev: Returns refreshed {"access_token": "..."}
     end
+```
 
 ## Features
 - **Zero Heavy Dependencies**: Pure PHP 8.2+, no frameworks.
