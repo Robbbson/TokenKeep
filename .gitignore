@@ -1,0 +1,5 @@
+/config.php
+/database.sqlite
+/tokenkeep.log
+.idea/
+.vscode/

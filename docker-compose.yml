@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  tokenkeep:
+    build: .
+    container_name: tokenkeep
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/www/html
+    restart: unless-stopped
